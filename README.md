@@ -28,3 +28,41 @@ dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
  [2,3,4,8,7,9,5,15,6] n-2
  [2,3,4,5,7,9,8,15,6] n-3
 ```
+# Merge Sort
+[16,21,11,8,12,22] 
+
+## 1. Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+```bash
+       [16,21,11,8,12,22]
+
+    [16,21,11]       [8,12,22]
+
+ [16]  [21,11]        [8,12]  [22]
+
+[16] [21] [11]          [8]  [12] [22]
+
+ [16]  [11,21]         [8,12]  [22]
+
+    [11,16,21]         [8,12,22]
+```
+## 2. Big-O gösterimini yazınız.
+O(nlogn)
+
+# Binary Search Tree
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+Sıralı hali: [0,1,2,3,4,5,6,7,8,9]
+Root: 5'tir solunda 2 sağında 7 bulunur.
+
+Binary Search Tree
+```bash
+         5
+      /      \
+     2          7 
+   /   \       /  \
+  1     3     6    8
+ /       \           \
+0         4           9
+```
